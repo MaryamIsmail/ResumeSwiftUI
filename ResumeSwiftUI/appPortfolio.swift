@@ -9,9 +9,27 @@ import SwiftUI
 
 struct appPortfolio: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
+        
+                    
+            VStack(alignment: .leading, spacing: 5) {
+                Text("App Portfolio")
+                    .font(.system(size: 40))
+                    .fontWeight(.medium)
+                    ScrollView(.horizontal) {
+            HStack {
+                Image("appOne")
+                    .resizable()
+                    .frame(width: 250, height: 450)
+                Image("appTwo")
+                    .resizable()
+                    .frame(width: 250, height: 450)
+                    }
+                }
+            }
+        }
+   
 }
+
 
 #Preview {
     appPortfolio()

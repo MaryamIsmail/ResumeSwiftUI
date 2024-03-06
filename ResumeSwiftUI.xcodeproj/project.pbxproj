@@ -7,18 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6717A3062B8E57D300A30123 /* LoadCorrect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6717A3052B8E57D300A30123 /* LoadCorrect.swift */; };
+		6717A3082B8E58A100A30123 /* PhoneRed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6717A3072B8E58A100A30123 /* PhoneRed.swift */; };
+		6717A30A2B8E58FD00A30123 /* IpadBlue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6717A3092B8E58FD00A30123 /* IpadBlue.swift */; };
+		6717A30C2B8FAC4700A30123 /* appPortfolio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6717A30B2B8FAC4700A30123 /* appPortfolio.swift */; };
+		6717A30E2B8FBD1700A30123 /* awards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6717A30D2B8FBD1700A30123 /* awards.swift */; };
 		671FB7B52B8D058800B27192 /* ResumeSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671FB7B42B8D058800B27192 /* ResumeSwiftUIApp.swift */; };
 		671FB7B72B8D058800B27192 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671FB7B62B8D058800B27192 /* ContentView.swift */; };
 		671FB7B92B8D058A00B27192 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 671FB7B82B8D058A00B27192 /* Assets.xcassets */; };
 		671FB7BC2B8D058A00B27192 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 671FB7BB2B8D058A00B27192 /* Preview Assets.xcassets */; };
+		671FB7C32B8D085400B27192 /* ObjectiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671FB7C22B8D085400B27192 /* ObjectiveView.swift */; };
+		671FB7C52B8D0AF700B27192 /* EducationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671FB7C42B8D0AF700B27192 /* EducationView.swift */; };
+		671FB7C92B8D150800B27192 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671FB7C82B8D150800B27192 /* Contact.swift */; };
+		671FB7CB2B8D1BE900B27192 /* skillsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671FB7CA2B8D1BE900B27192 /* skillsView.swift */; };
+		671FB7CD2B8D1E8D00B27192 /* Experience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671FB7CC2B8D1E8D00B27192 /* Experience.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6717A3052B8E57D300A30123 /* LoadCorrect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadCorrect.swift; sourceTree = "<group>"; };
+		6717A3072B8E58A100A30123 /* PhoneRed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneRed.swift; sourceTree = "<group>"; };
+		6717A3092B8E58FD00A30123 /* IpadBlue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IpadBlue.swift; sourceTree = "<group>"; };
+		6717A30B2B8FAC4700A30123 /* appPortfolio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appPortfolio.swift; sourceTree = "<group>"; };
+		6717A30D2B8FBD1700A30123 /* awards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = awards.swift; sourceTree = "<group>"; };
 		671FB7B12B8D058800B27192 /* ResumeSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResumeSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		671FB7B42B8D058800B27192 /* ResumeSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeSwiftUIApp.swift; sourceTree = "<group>"; };
 		671FB7B62B8D058800B27192 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		671FB7B82B8D058A00B27192 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		671FB7BB2B8D058A00B27192 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		671FB7C22B8D085400B27192 /* ObjectiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectiveView.swift; sourceTree = "<group>"; };
+		671FB7C42B8D0AF700B27192 /* EducationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationView.swift; sourceTree = "<group>"; };
+		671FB7C82B8D150800B27192 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		671FB7CA2B8D1BE900B27192 /* skillsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = skillsView.swift; sourceTree = "<group>"; };
+		671FB7CC2B8D1E8D00B27192 /* Experience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Experience.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +71,18 @@
 		671FB7B32B8D058800B27192 /* ResumeSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				6717A3052B8E57D300A30123 /* LoadCorrect.swift */,
+				6717A3072B8E58A100A30123 /* PhoneRed.swift */,
+				6717A3092B8E58FD00A30123 /* IpadBlue.swift */,
 				671FB7B42B8D058800B27192 /* ResumeSwiftUIApp.swift */,
 				671FB7B62B8D058800B27192 /* ContentView.swift */,
+				671FB7C22B8D085400B27192 /* ObjectiveView.swift */,
+				671FB7C42B8D0AF700B27192 /* EducationView.swift */,
+				671FB7C82B8D150800B27192 /* Contact.swift */,
+				671FB7CA2B8D1BE900B27192 /* skillsView.swift */,
+				671FB7CC2B8D1E8D00B27192 /* Experience.swift */,
+				6717A30B2B8FAC4700A30123 /* appPortfolio.swift */,
+				6717A30D2B8FBD1700A30123 /* awards.swift */,
 				671FB7B82B8D058A00B27192 /* Assets.xcassets */,
 				671FB7BA2B8D058A00B27192 /* Preview Content */,
 			);
@@ -138,7 +168,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				671FB7B72B8D058800B27192 /* ContentView.swift in Sources */,
+				671FB7C52B8D0AF700B27192 /* EducationView.swift in Sources */,
+				671FB7C92B8D150800B27192 /* Contact.swift in Sources */,
+				671FB7CD2B8D1E8D00B27192 /* Experience.swift in Sources */,
+				6717A3082B8E58A100A30123 /* PhoneRed.swift in Sources */,
+				6717A30E2B8FBD1700A30123 /* awards.swift in Sources */,
+				671FB7C32B8D085400B27192 /* ObjectiveView.swift in Sources */,
+				671FB7CB2B8D1BE900B27192 /* skillsView.swift in Sources */,
+				6717A3062B8E57D300A30123 /* LoadCorrect.swift in Sources */,
+				6717A30C2B8FAC4700A30123 /* appPortfolio.swift in Sources */,
 				671FB7B52B8D058800B27192 /* ResumeSwiftUIApp.swift in Sources */,
+				6717A30A2B8E58FD00A30123 /* IpadBlue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
